@@ -6,8 +6,8 @@ name VARCHAR(100)
 salary INT
 );
 INSERT INTO employee
-(id,name,salary)
+  (id,name,salary)
 VALUES
-(1,"adam",25000),
-(2,"bov",30000);
+  (1,"adam",25000),
+  (2,"bov",30000);
 SELECT * FROM employee;
